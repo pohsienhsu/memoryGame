@@ -1,0 +1,91 @@
+html{
+    height:100%;/* make sure it is at least as tall as the viewport */
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    min-height: 100%; /* force the BODY element to match the height of the HTML element */
+    padding: 0;
+    margin: 0;
+}
+#container {
+    margin: 60px auto;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+#start{
+    margin: 50px 0;
+    text-align: center;
+}
+#score{
+    display: inline-block;
+}
+h2 {
+    color: white;
+    margin: 80px 30px;
+}
+
+#restart{
+    margin: 30px auto;
+}
+
+#game {
+    margin: 40px 0;
+    display: none;
+}
+
+#game div {
+    border: 1px solid white;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    display: inline-block;
+    transition: 1000ms;
+}
+.incomplete {
+    background-color: rgb(152, 3, 252);
+}
+.selected {
+    border: 3px solid cyan;
+}
+.completed {
+
+}
+
+.red {
+}
+.blue {
+}
+.green {
+}
+.orange {
+}
+.purple {
+}
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #810e05;
+    justify-content: center;
+    margin: 40px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
